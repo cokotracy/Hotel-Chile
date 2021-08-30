@@ -314,7 +314,7 @@
         <field name="arch" type="xml">
             <form string="Hotel Room">
                 <header>
-                    <button attrs="{'invisible':[('status','not in',['available'])]}" name="%(action_view_change_room_qty)d" string="Update Room Qty" type="action" />
+                   <!-- <button attrs="{'invisible':[('status','not in',['available'])]}" name="%(action_view_change_room_qty)d" string="Update Room Qty" type="action" />!-->
                 </header>
                 <sheet>
                     <div class="oe_button_box" name="button_box">
